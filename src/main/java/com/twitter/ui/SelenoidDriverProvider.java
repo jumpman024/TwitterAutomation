@@ -21,7 +21,7 @@ public class SelenoidDriverProvider implements WebDriverProvider {
 
         try {
             RemoteWebDriver driver = new RemoteWebDriver(
-                    URI.create("http://localhost:8081/wd/hub").toURL(),
+                    URI.create("http://localhost:4444/wd/hub").toURL(),
                     browser
 
             );
