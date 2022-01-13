@@ -9,7 +9,7 @@ public class MainPage {
 
     public static MainPage open() throws InterruptedException {
         Selenide.open("");
-//        Thread.sleep(5000);
+        Thread.sleep(5000);
         return new MainPage();
     }
 
